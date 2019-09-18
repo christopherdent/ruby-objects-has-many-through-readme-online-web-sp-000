@@ -30,7 +30,7 @@ class Waiter
       meal.waiter == self 
     end 
   end 
-  binding.pry 
+ 
   def best_tipper
     
     
