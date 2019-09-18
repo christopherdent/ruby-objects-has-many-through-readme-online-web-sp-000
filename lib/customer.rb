@@ -33,12 +33,7 @@ class Customer
     meals.map {|meal| meal.waiter} 
   end 
   
-  def best_tipper
-    best = meals.max do |meal_a, meal_b|
-      meal_a.tip <=> meal_b.tip 
-    end 
-    best 
-  end 
+
   
   
   
