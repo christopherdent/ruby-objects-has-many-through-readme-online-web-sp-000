@@ -36,7 +36,7 @@ class Waiter
       meal_a.tip <=> meal_b.tip 
       binding.pry 
     end 
-    best 
+    best.customer
   end 
   
 
