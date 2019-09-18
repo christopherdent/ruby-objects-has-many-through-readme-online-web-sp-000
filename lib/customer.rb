@@ -17,7 +17,7 @@ class Customer
   end 
   
   
-  def new_meal(self)
+  def new_meal(Self)
      
   end 
   
