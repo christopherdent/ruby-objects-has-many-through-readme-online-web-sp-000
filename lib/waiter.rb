@@ -11,5 +11,12 @@ class Waiter
     
     
   end 
+  
+  
+  
+  def all  
+    @@all 
+    
+  end 
 
 end
