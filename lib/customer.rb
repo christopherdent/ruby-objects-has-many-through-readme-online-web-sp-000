@@ -1,7 +1,7 @@
 class Customer
   attr_accessor :name, :age
   
-  @@customers = []
+  @@all = []
   
   
   
@@ -13,7 +13,7 @@ class Customer
   end 
   
   def self.all 
-    @@customers 
+    @@all 
   end 
   
   
