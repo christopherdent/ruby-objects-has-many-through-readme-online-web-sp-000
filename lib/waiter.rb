@@ -1,3 +1,4 @@
+require 'pry'
 class Waiter
   attr_accessor :name, :experience
   
@@ -29,7 +30,12 @@ class Waiter
       meal.waiter == self 
     end 
   end 
-  
+  binding.pry 
+  def best_tipper
+    
+    
+    
+  end 
   
 
 end
